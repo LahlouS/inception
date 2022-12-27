@@ -1,0 +1,27 @@
+
+*********GENERAL USES**********
+
+--> demistifying containers, deep understanding about containers :
+https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504
+
+--> chrooter d'un systeme a l'autre (et bypass le passwd root :))
+https://www.linuxtricks.fr/wiki/chrooter-un-systeme-linux
+
+--> mieux comprendre les partitions sous linux
+https://www.malekal.com/partitions-disque-linux-structure-creation-formatage/
+
+--> mieux comprendre le system de fichier
+https://www.malekal.com/ntfs-ext4-comprendre-systemes-de-fichiers/
+
+
+************DOCKER*************
+
+--> docker docs
+https://docs.docker.com/reference/
+
+********WORDPRESS************
+--> How to install WordPress
+https://wordpress.org/support/article/how-to-install-wordpress/
+
+
+
