@@ -13,15 +13,28 @@ https://www.malekal.com/partitions-disque-linux-structure-creation-formatage/
 --> mieux comprendre le system de fichier
 https://www.malekal.com/ntfs-ext4-comprendre-systemes-de-fichiers/
 
+--> The linux kernel documentation
+https://docs.kernel.org/
+
 
 ************DOCKER*************
 
 --> docker docs
 https://docs.docker.com/reference/
 
+--> docker glossary
+https://docs.docker.com/glossary/#base-image
+
+--> le tuto grademe
+https://tuto.grademe.fr/inception/
+
+--> tuto en francais pour installer Docker
+https://www.nicelydev.com/docker/installer-docker-linux#h2_1
+
 ********WORDPRESS************
 --> How to install WordPress
 https://wordpress.org/support/article/how-to-install-wordpress/
+
 
 
 
