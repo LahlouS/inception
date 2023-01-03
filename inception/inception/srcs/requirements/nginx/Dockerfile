@@ -13,6 +13,5 @@ RUN chmod 755 /var/www/html
 RUN chown -R www-data:www-data /var/www/html
 
 COPY conf/nginx.conf /etc/nginx/nginx.conf
-COPY imageTest /data/image/imageTest
 
 CMD [ "nginx", "-g", "daemon off;" ]

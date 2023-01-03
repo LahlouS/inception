@@ -6,9 +6,9 @@ services:
     networks:
       - inception
     build:
-    context: requirements/mariadb
-    dockerfile:
-      Dockerfile
+      context: requirements/mariadb
+      dockerfile:
+        Dockerfile
     env_file:
       .env
     volumes:
@@ -28,9 +28,9 @@ services:
     depends_on:
     - wordpress
     build:
-    context: requirements/nginx
-    dockerfile:
-      Dockerfile
+      context: requirements/nginx
+      dockerfile:
+        Dockerfile
     env_file:
       .env
     ports:
@@ -47,29 +47,31 @@ services:
     networks:
       - inception
     build:
-    context: requirements/wordpress
-    dockerfile: Dockerfile
+      context: requirements/wordpress
+      dockerfile: Dockerfile
     depends_on:
     - mariadb
     restart:
       on-failure
     expose:
-      "9000"
+    - "9000"
 
 volumes:
   wordpress:
     driver: local
     driver_opts:
       type: 'none'
-    o: 'bind'
-    device: '/Users/slahlou/data/wordpress'
+      o: 'bind'
+      device: '/home/slahlou/data/wordpress'
   mariadb:
     driver: local
     driver_opts:
       type: 'none'
-    o: 'bind'
-    device: '/Users/slahlou/data/mariadb'
+      o: 'bind'
+      device: '/home/slahlou/data/mariadb'
 
-  networks:
-    inception:
+
+
+networks:
+  inception:
     driver: bridge
